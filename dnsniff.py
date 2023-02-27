@@ -37,7 +37,8 @@ def main():
                                     print("\n" + word + " Has been found:\n")
                                     print(out)
                             except KeyboardInterrupt:
-                                print("Action Canceled!")
+                                print("\nSniffing Canceled!")
+                                sys.exit()
                     else:
                         print("Invalid Wordlist extention!")
             else:
